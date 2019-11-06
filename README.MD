@@ -1,28 +1,36 @@
-[中文版](./README_CN.MD)
+[English](./README_EN.MD)
 # Asus Rog Z370-I UHD630 + 8600K EFI for macOS Mojave
 
-## Hardware List
+##  硬件配置
 
-| Hardware  | Model                        | Remark               |
-|-----------|------------------------------|----------------------|
-| CPU       | i5 8600K                     |                      |
-| GPU       | UHD 630                      |                      |
-| Mainboard | ASUS ROG STRIX Z370-I GAMING |                      |
-| Network   | BCM94352z                    | replace builtin card |
-| RAM       | G Skill 2133 8G x2           |                      |
-| Disk      | SAMSUNG 970 Evo 512G         |                      |
-| Case      | INWIN CHOPIN                 | include 150W power   |
+| 硬件  | 型号                           | 备注        |
+|-----|------------------------------|-----------|
+| CPU | i5 8600K                      |           |
+| GPU | UHD 630                       |           |
+| 主板  | ASUS ROG STRIX Z370-I GAMING |           |
+| 网卡  | 博通 BCM94352z                | 替换主板原来的网卡 |
+| 内存  | 芝士奇 2133 8G x2              |           |
+| 硬盘  | 东芝 TR200 480G             |  不能开启 TRIM         |
+| 机箱  | 肖邦 迎广                     | 自带150w电源  |
 
-## Support Features
+## 支持特性
 
-1. Compatible up to 10.14.6
-2. Support WIFI + Bluetooth
-3. Support DP + HDMI daul Monitors
-4. Support DP, HDMI audio output
-5. Support all USB 3.1 Ports (up to 5Gb/s)
-6. Sleep Hibernate no issue so far
+1. 兼容至 10.14.6
+2. 支持 WIFI 和 蓝牙
+3. 支持 DP + HDMI 双显示器
+4. 支持 DP HDMI 声音输出
+5. 休眠和睡眠都目前没有问题
+6. 重启后 HDMI 不再需要重新插拔
+7. CPU 变频支持
 
-## Known Issues
+## 已知问题
 
-1. Variable CPU Frequency not supported
-2. HDMI re plug is necessary after reboot
+1. 开机的时候，HDMI 会闪屏 （但不需要重新插拔）
+
+## 更新
+
+### 2019-11-06
+
+    - CPU 变频问题 （发热变小了）  
+    - 重启后不再需要插拔 HDMI
+    - 硬盘更新为 东芝 TR200 480G （测试了无法开启 Trim，否则系统会卡顿）
